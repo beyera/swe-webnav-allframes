@@ -11,17 +11,17 @@ This project is based on the example [Safari Web Extension Xcode project](https:
 Even though a `frameId` is specified (0 and 110), both messages receive a response from frame 0. This is a race condition, so every message has the possibility of returning from either frame.
 
 <p align="center">
-   <img src="images/safari.png">
+   <img src="images/safari.jpg">
 </p>
 
 ### Chrome
 
 <p align="center">
-   <img src="images/chrome.png">
+   <img src="images/chrome.jpg">
 </p>
 
 ### Firefox
 
 <p align="center">
-   <img src="images/firefox.png">
+   <img src="images/firefox.jpg">
 </p>
