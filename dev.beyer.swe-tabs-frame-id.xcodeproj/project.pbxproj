@@ -12,14 +12,13 @@
 		F297DA5B25B84E4300DE11E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F297DA5925B84E4300DE11E5 /* Main.storyboard */; };
 		F297DA5D25B84E4300DE11E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297DA5C25B84E4300DE11E5 /* ViewController.swift */; };
 		F297DA5F25B84E4400DE11E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F297DA5E25B84E4400DE11E5 /* Assets.xcassets */; };
-		F297DA6625B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F297DA6525B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F297DA6625B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F297DA6525B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F297DA6B25B84E4400DE11E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F297DA6A25B84E4400DE11E5 /* Cocoa.framework */; };
 		F297DA6E25B84E4400DE11E5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297DA6D25B84E4400DE11E5 /* SafariWebExtensionHandler.swift */; };
 		F297DA7125B84E4400DE11E5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F297DA7025B84E4400DE11E5 /* _locales */; };
 		F297DA7325B84E4400DE11E5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F297DA7225B84E4400DE11E5 /* images */; };
 		F297DA7525B84E4400DE11E5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F297DA7425B84E4400DE11E5 /* manifest.json */; };
 		F297DA7725B84E4500DE11E5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F297DA7625B84E4500DE11E5 /* background.js */; };
-		F297DA7925B84E4500DE11E5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F297DA7825B84E4500DE11E5 /* content.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +27,7 @@
 			containerPortal = F297DA4B25B84E4300DE11E5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F297DA6425B84E4400DE11E5;
-			remoteInfo = "swe-tabs-frame-id-extension";
+			remoteInfo = "swe-webnav-allframes-extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F297DA6625B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension.appex in Embed App Extensions */,
+				F297DA6625B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,21 +47,20 @@
 
 /* Begin PBXFileReference section */
 		F235254B264EBFA7007E5616 /* browser-polyfill-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "browser-polyfill-min.js"; sourceTree = "<group>"; };
-		F297DA5325B84E4300DE11E5 /* dev.beyer.swe-tabs-frame-id.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev.beyer.swe-tabs-frame-id.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F297DA5325B84E4300DE11E5 /* dev.beyer.swe-webnav-allframes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev.beyer.swe-webnav-allframes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F297DA5625B84E4300DE11E5 /* safari_web_extension_sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_web_extension_sample.entitlements; sourceTree = "<group>"; };
 		F297DA5725B84E4300DE11E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F297DA5A25B84E4300DE11E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F297DA5C25B84E4300DE11E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F297DA5E25B84E4400DE11E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F297DA6025B84E4400DE11E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F297DA6525B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dev.beyer.swe-tabs-frame-id Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F297DA6525B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dev.beyer.swe-webnav-allframes Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F297DA6A25B84E4400DE11E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F297DA6D25B84E4400DE11E5 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		F297DA7025B84E4400DE11E5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		F297DA7225B84E4400DE11E5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		F297DA7425B84E4400DE11E5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		F297DA7625B84E4500DE11E5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		F297DA7825B84E4500DE11E5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		F297DA8025B84E4500DE11E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F297DA8125B84E4500DE11E5 /* safari_web_extension_sample_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_web_extension_sample_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +87,8 @@
 		F297DA4A25B84E4300DE11E5 = {
 			isa = PBXGroup;
 			children = (
-				F297DA5525B84E4300DE11E5 /* swe-tabs-frame-id */,
-				F297DA6C25B84E4400DE11E5 /* swe-tabs-frame-id-extension */,
+				F297DA5525B84E4300DE11E5 /* swe-webnav-allframes */,
+				F297DA6C25B84E4400DE11E5 /* swe-webnav-allframes-extension */,
 				F297DA6925B84E4400DE11E5 /* Frameworks */,
 				F297DA5425B84E4300DE11E5 /* Products */,
 			);
@@ -99,13 +97,13 @@
 		F297DA5425B84E4300DE11E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F297DA5325B84E4300DE11E5 /* dev.beyer.swe-tabs-frame-id.app */,
-				F297DA6525B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension.appex */,
+				F297DA5325B84E4300DE11E5 /* dev.beyer.swe-webnav-allframes.app */,
+				F297DA6525B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F297DA5525B84E4300DE11E5 /* swe-tabs-frame-id */ = {
+		F297DA5525B84E4300DE11E5 /* swe-webnav-allframes */ = {
 			isa = PBXGroup;
 			children = (
 				F297DA5625B84E4300DE11E5 /* safari_web_extension_sample.entitlements */,
@@ -115,7 +113,7 @@
 				F297DA5E25B84E4400DE11E5 /* Assets.xcassets */,
 				F297DA6025B84E4400DE11E5 /* Info.plist */,
 			);
-			path = "swe-tabs-frame-id";
+			path = "swe-webnav-allframes";
 			sourceTree = "<group>";
 		};
 		F297DA6925B84E4400DE11E5 /* Frameworks */ = {
@@ -126,7 +124,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F297DA6C25B84E4400DE11E5 /* swe-tabs-frame-id-extension */ = {
+		F297DA6C25B84E4400DE11E5 /* swe-webnav-allframes-extension */ = {
 			isa = PBXGroup;
 			children = (
 				F297DA6D25B84E4400DE11E5 /* SafariWebExtensionHandler.swift */,
@@ -134,7 +132,7 @@
 				F297DA8125B84E4500DE11E5 /* safari_web_extension_sample_Extension.entitlements */,
 				F297DA6F25B84E4400DE11E5 /* Resources */,
 			);
-			path = "swe-tabs-frame-id-extension";
+			path = "swe-webnav-allframes-extension";
 			sourceTree = "<group>";
 		};
 		F297DA6F25B84E4400DE11E5 /* Resources */ = {
@@ -145,7 +143,6 @@
 				F297DA7425B84E4400DE11E5 /* manifest.json */,
 				F235254B264EBFA7007E5616 /* browser-polyfill-min.js */,
 				F297DA7625B84E4500DE11E5 /* background.js */,
-				F297DA7825B84E4500DE11E5 /* content.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -153,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F297DA5225B84E4300DE11E5 /* dev.beyer.swe-tabs-frame-id */ = {
+		F297DA5225B84E4300DE11E5 /* dev.beyer.swe-webnav-allframes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F297DA8825B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-tabs-frame-id" */;
+			buildConfigurationList = F297DA8825B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-webnav-allframes" */;
 			buildPhases = (
 				F297DA4F25B84E4300DE11E5 /* Sources */,
 				F297DA5025B84E4300DE11E5 /* Frameworks */,
@@ -167,14 +164,14 @@
 			dependencies = (
 				F297DA6825B84E4400DE11E5 /* PBXTargetDependency */,
 			);
-			name = "dev.beyer.swe-tabs-frame-id";
-			productName = "swe-tabs-frame-id";
-			productReference = F297DA5325B84E4300DE11E5 /* dev.beyer.swe-tabs-frame-id.app */;
+			name = "dev.beyer.swe-webnav-allframes";
+			productName = "swe-webnav-allframes";
+			productReference = F297DA5325B84E4300DE11E5 /* dev.beyer.swe-webnav-allframes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F297DA6425B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension */ = {
+		F297DA6425B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F297DA8425B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-tabs-frame-id Extension" */;
+			buildConfigurationList = F297DA8425B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-webnav-allframes Extension" */;
 			buildPhases = (
 				F297DA6125B84E4400DE11E5 /* Sources */,
 				F297DA6225B84E4400DE11E5 /* Frameworks */,
@@ -184,9 +181,9 @@
 			);
 			dependencies = (
 			);
-			name = "dev.beyer.swe-tabs-frame-id Extension";
-			productName = "swe-tabs-frame-id-extension";
-			productReference = F297DA6525B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension.appex */;
+			name = "dev.beyer.swe-webnav-allframes Extension";
+			productName = "swe-webnav-allframes-extension";
+			productReference = F297DA6525B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F297DA4E25B84E4300DE11E5 /* Build configuration list for PBXProject "dev.beyer.swe-tabs-frame-id" */;
+			buildConfigurationList = F297DA4E25B84E4300DE11E5 /* Build configuration list for PBXProject "dev.beyer.swe-webnav-allframes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,8 +216,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F297DA5225B84E4300DE11E5 /* dev.beyer.swe-tabs-frame-id */,
-				F297DA6425B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension */,
+				F297DA5225B84E4300DE11E5 /* dev.beyer.swe-webnav-allframes */,
+				F297DA6425B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +241,6 @@
 				F297DA7325B84E4400DE11E5 /* images in Resources */,
 				F297DA7525B84E4400DE11E5 /* manifest.json in Resources */,
 				F297DA7125B84E4400DE11E5 /* _locales in Resources */,
-				F297DA7925B84E4500DE11E5 /* content.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		F297DA6825B84E4400DE11E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F297DA6425B84E4400DE11E5 /* dev.beyer.swe-tabs-frame-id Extension */;
+			target = F297DA6425B84E4400DE11E5 /* dev.beyer.swe-webnav-allframes Extension */;
 			targetProxy = F297DA6725B84E4400DE11E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,16 +404,16 @@
 		F297DA8525B84E4500DE11E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "swe-tabs-frame-id-extension/safari_web_extension_sample_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "swe-webnav-allframes-extension/safari_web_extension_sample_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "swe-tabs-frame-id-extension/Info.plist";
+				INFOPLIST_FILE = "swe-webnav-allframes-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-tabs-frame-id-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-webnav-allframes-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -427,16 +423,16 @@
 		F297DA8625B84E4500DE11E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "swe-tabs-frame-id-extension/safari_web_extension_sample_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "swe-webnav-allframes-extension/safari_web_extension_sample_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "swe-tabs-frame-id-extension/Info.plist";
+				INFOPLIST_FILE = "swe-webnav-allframes-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-tabs-frame-id-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-webnav-allframes-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -449,16 +445,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "swe-tabs-frame-id/safari_web_extension_sample.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "swe-webnav-allframes/safari_web_extension_sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "swe-tabs-frame-id/Info.plist";
+				INFOPLIST_FILE = "swe-webnav-allframes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-tabs-frame-id";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-webnav-allframes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -470,16 +466,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "swe-tabs-frame-id/safari_web_extension_sample.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "swe-webnav-allframes/safari_web_extension_sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "swe-tabs-frame-id/Info.plist";
+				INFOPLIST_FILE = "swe-webnav-allframes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-tabs-frame-id";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.beyer.swe-webnav-allframes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -488,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F297DA4E25B84E4300DE11E5 /* Build configuration list for PBXProject "dev.beyer.swe-tabs-frame-id" */ = {
+		F297DA4E25B84E4300DE11E5 /* Build configuration list for PBXProject "dev.beyer.swe-webnav-allframes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F297DA8225B84E4500DE11E5 /* Debug */,
@@ -497,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F297DA8425B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-tabs-frame-id Extension" */ = {
+		F297DA8425B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-webnav-allframes Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F297DA8525B84E4500DE11E5 /* Debug */,
@@ -506,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F297DA8825B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-tabs-frame-id" */ = {
+		F297DA8825B84E4500DE11E5 /* Build configuration list for PBXNativeTarget "dev.beyer.swe-webnav-allframes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F297DA8925B84E4500DE11E5 /* Debug */,

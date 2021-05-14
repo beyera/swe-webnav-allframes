@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  swe-tabs-frame-id
+//  swe-webnav-allframes
 //
 //  Created by Andrew Beyer on 5/14/21.
 //
@@ -9,8 +9,8 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "swe-tabs-frame-id"
-let extensionBundleIdentifier = "dev.beyer.swe-tabs-frame-id-extension"
+let appName = "swe-webnav-allframes"
+let extensionBundleIdentifier = "dev.beyer.swe-webnav-allframes-extension"
 
 class ViewController: NSViewController {
 

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  swe-tabs-frame-id
+//  swe-webnav-allframes
 //
 //  Created by Andrew Beyer on 5/14/21.
 //
